@@ -1,6 +1,6 @@
 {
-  "name": "pdfapi/zf-pdfapi-module",
-  "description": "Zend Framework module for converting PDF documents via pdfapi.io",
+  "name": "pdfapi/zf2-pdfapi-module",
+  "description": "Zend Framework 2 module for converting PDF documents via pdfapi.io",
   "homepage": "https://pdfapi.io/",
   "license": "MIT",
   "authors": [
