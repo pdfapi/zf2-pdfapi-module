@@ -33,4 +33,13 @@ Add your module.config.php file following lines
 
 or copy pdfapi.global.php.dist to your config/autload directory and rename it pdfapi.global.php
 
+And in your code
+
+```php
+/**
+ * @var $pdf PdfApi
+ */
+$pdf = $this->serviceLocator->get(PdfApi::class);
+```
+
 For getting API KEY you need to register account at https://pdfapi.io. Generating API KEY will take you 10 seconds. And it is free. Really.
